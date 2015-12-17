@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (3.1.3)
+  - AlamofireObjectMapper (2.1.0):
+    - Alamofire (~> 3.1.0)
+    - ObjectMapper (~> 1.0)
+  - Argo (2.2.0)
+  - Curry (1.4.0)
+  - Moya (5.0.0):
+    - Moya/Core (= 5.0.0)
+  - Moya/Core (5.0.0):
+    - Alamofire (~> 3.0)
+  - Moya/RxSwift (5.0.0):
+    - Moya/Core
+    - RxSwift (~> 2.0.0-beta)
+  - ObjectMapper (1.0.1)
+  - RxSwift (2.0.0-beta.3)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - AlamofireObjectMapper (~> 2.1)
+  - Argo
+  - Curry
+  - Moya
+  - Moya/RxSwift
+  - ObjectMapper (~> 1.0)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 8e618c8baf6323a5079c6549bb38d48357b31630
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 9f93b56389e48def9220dd57d1f44b1927229a5a
+  AlamofireObjectMapper: 24097576202064f8b0a583452dd934064f78dc0e
+  Argo: 4f52a32b4cd913c204e5a45f420b3fccad3e3f24
+  Curry: 294533187eedbf52db60a1e70c29b4f5c9f621c0
+  Moya: 1267d2e7adcc8a3c90b9864854d491ab32f87b3e
+  ObjectMapper: 98524bac0dca46c6b3d5ee02cd410fc700ec6ce2
+  RxSwift: 19fbe885b404d1d36d42ac8535134739a9b42952
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0
