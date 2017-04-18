@@ -9,10 +9,6 @@
 import Foundation
 
 
-let kRequestServerKey = "http://apptest.wecube.com:8080/taojinjia/"
-
-
-
 //class CommonInfo: Mappable {
 //    var data: AnyObject?
 //    var code: String!
