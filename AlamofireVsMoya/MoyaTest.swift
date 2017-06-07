@@ -64,7 +64,7 @@ public enum RequestApi {
 
 extension RequestApi: TargetType {
     public var baseURL: NSURL {
-        return NSURL(string: "http://apptest.wecube.com:8080/taojinjia/")!
+        return NSURL(string: "http://xxxxxx")!
     }
     
     public var path: String {
